@@ -1,0 +1,17 @@
+{
+    "name": "code/demo",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nguyen Tien Truong",
+            "email": "truong@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Assigment\\":["admin"]
+        },
+        "files": ["admin/models/env.php"]
+    }
+}
